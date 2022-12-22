@@ -1,5 +1,5 @@
 # dotfiles
-![screenshot](https://user-images.githubusercontent.com/119128146/208998498-610c7ff0-194b-4ec1-9258-bf25c9f11969.png)
+![screenshot](https://user-images.githubusercontent.com/119128146/209169687-9c094c84-cf0e-4ae8-a2c0-a38bf554356c.png)
 [wallpaper](https://www.reddit.com/r/wallpaper/comments/w8em0m/monochrome_crane_3200x1800/)
 
 If you want to copy my setup make sure to install the following packages:
