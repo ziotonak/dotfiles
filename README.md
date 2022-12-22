@@ -1,4 +1,7 @@
 # dotfiles
+![screenshot](https://user-images.githubusercontent.com/119128146/208998498-610c7ff0-194b-4ec1-9258-bf25c9f11969.png)
+[wallpaper](https://www.reddit.com/r/wallpaper/comments/w8em0m/monochrome_crane_3200x1800/)
+
 If you want to copy my setup make sure to install the following packages:
 - Wayland compositor: [Hyprland](https://github.com/hyprwm/Hyprland)
 - Wallpaper utility: [hyprpaper](https://github.com/hyprwm/hyprpaper)
