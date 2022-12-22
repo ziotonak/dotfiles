@@ -6,8 +6,9 @@ If you want to copy my setup make sure to install the following packages:
 - Wayland compositor: [Hyprland](https://github.com/hyprwm/Hyprland)
 - Wallpaper utility: [hyprpaper](https://github.com/hyprwm/hyprpaper)
 - Terminal: [kitty](https://github.com/kovidgoyal/kitty)
+- Shell: zsh with [powerlevel10k](https://github.com/romkatv/powerlevel10k/) theme
 - App launcher: [wofi](https://hg.sr.ht/~scoopta/wofi)
-- Required for screenshots: grim, slurp
+- Required to take screenshots: grim, slurp
 - Fonts: Roboto, Roboto Slab, Roboto Mono
 
 and then clone this repository and symlink or copy the files to the right location on your system.
