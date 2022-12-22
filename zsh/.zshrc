@@ -2,7 +2,7 @@
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+	source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
@@ -19,7 +19,7 @@ zmodload zsh/zpty
 
 pty() {
 	zpty pty-${UID} ${1+$@}
-	if [[ ! -t 1 ]];then
+	if [[ ! -t 1 ]]; then
 		setopt local_traps
 		trap '' INT
 	fi
@@ -54,14 +54,14 @@ alias ip='ip -color=auto'
 
 # Privileged access
 if (( UID != 0 )); then
-    alias sudo='sudo '
-    alias scat='sudo cat'
-    alias svim='sudoedit'
-    alias root='sudo -i'
-    alias reboot='sudo systemctl reboot'
-    alias poweroff='sudo systemctl poweroff'
-    alias update='sudo pacman -Su'
-    alias netctl='sudo netctl'
+	alias sudo='sudo '
+	alias scat='sudo cat'
+	alias svim='sudoedit'
+	alias root='sudo -i'
+	alias reboot='sudo systemctl reboot'
+	alias poweroff='sudo systemctl poweroff'
+	alias update='sudo pacman -Su'
+	alias netctl='sudo netctl'
 fi
 
 ## ls
