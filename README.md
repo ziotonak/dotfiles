@@ -8,7 +8,8 @@ If you want to copy my setup make sure to install the following packages:
 - Terminal: [kitty](https://github.com/kovidgoyal/kitty)
 - Shell: zsh with [powerlevel10k](https://github.com/romkatv/powerlevel10k/) theme
 - App launcher: [wofi](https://hg.sr.ht/~scoopta/wofi)
+- Text editor: vim with [vim-plug](https://github.com/junegunn/vim-plug) as plugin manager
 - Required to take screenshots: grim, slurp
-- Fonts: Roboto, Roboto Slab, Roboto Mono
+- Fonts: Roboto, Roboto Slab, Roboto Mono, Roboto Mono Nerd Font
 
 and then clone this repository and symlink or copy the files to the right location on your system.
